@@ -9,6 +9,11 @@ Calculation::Calculation()
 	Calculation::b = 5;
 }
 
+double Calculation::getExactResolve(double x, double t)
+{
+	double result = (Calculation::a - x) / (Calculation::b + x);
+	return result;
+}
 
 Calculation::~Calculation()
 {
