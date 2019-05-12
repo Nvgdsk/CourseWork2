@@ -7,7 +7,7 @@ Calculation::Calculation()
 {
 	Calculation::a = 4;
 	Calculation::b = 5;
-	Calculation::tau = 0.00005;
+	Calculation::tau = 0.00001;
 	Calculation::h = 0.01;
 }
 
