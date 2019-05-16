@@ -7,8 +7,8 @@ Calculation::Calculation()
 {
 	Calculation::a = 4;
 	Calculation::b = 5;
-	Calculation::tau = 0.00005;
-	Calculation::h = 0.01;
+	Calculation::tau = 0.001;
+	Calculation::h = 0.1;
 }
 
 double Calculation::getExactResolve(double x, double t)
